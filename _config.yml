@@ -3,7 +3,7 @@ title:               Land use cover classification
 tagline:             'Landsat images'
 description:         'Project 2: Data science portafolio'
 url:                 
-baseurl:             ''
+baseurl:             '/'
 paginate:            5
 permalink:           
 
