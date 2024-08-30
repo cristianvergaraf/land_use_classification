@@ -2,16 +2,16 @@
 title:               Land use cover classification
 tagline:             'Landsat images'
 description:         'Project 2: Data science portafolio'
-url:                 
+url:                 'https://cristianvergaraf.github.io/land_use_classification/'
 baseurl:             '/'
 paginate:            5
-permalink:           
+permalink:           pretty
 
 # About/contact
 author:
   name:              Cristián Vergara 
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  url:               
+  email:             
 
 # Gems
 plugins:
