@@ -5,18 +5,31 @@ description:         'Project 2: Data science portafolio'
 url:                 
 baseurl:             ''
 paginate:            5
-permalink:           pretty
+permalink:           
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Cristián Vergara 
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Custom vars
-version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+# Caching
+cache: true
+cache_dir: .jekyll-cache
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Mark Otto"
+      image: "/assets/images/default-image.jpg"
+
