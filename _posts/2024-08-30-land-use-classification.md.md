@@ -45,7 +45,7 @@ Since the reflectance values were already scaled from 0 to 1, additional scaling
 Three different machine algorithms were compared to determine which performed best for this task, considering the small and imbalanced number of training sites.
 
 
-<h3 style = "font-weight:800;"> <a href = https://github.com/cristianvergaraf/land_use_classification/blob/main/clasificacion_imagen.ipynb> Predicting Land Use Classes </a></h3>
+<h3 style = "font-weight:800;"> <a href = "https://github.com/cristianvergaraf/land_use_classification/blob/main/clasificacion_imagen.ipynb"> Predicting Land Use Classes </a></h3>
 
 The models were applied to predict the land use/cover classes for the entire image. Rasterio was used to manage the image and transform it into an array, enabling model application. The results were then converted back to an image and exported.
 
